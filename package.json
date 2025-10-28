@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-embed-search",
+  "version": "1.0.0",
+  "description": "Search TikTok and return official embed snippets (oEmbed) — Render-friendly",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-fetch": "^3.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
